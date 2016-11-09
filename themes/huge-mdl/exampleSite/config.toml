@@ -1,0 +1,37 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Huge Material Design Lite - An Oxymoron"
+theme = "huge-mdl"
+disqusShortname = "spf13"
+paginate = 10
+
+[params]
+
+	title = "Huge MDL"
+	subtitle = "A Material Design Lite For Hugo"
+	copyright = "Released under the MIT license."
+
+	# Google Analytics
+	googleAnalytics = ""
+
+	# To provide some metadata for search engines and the about section in the footer
+	# feel free to add a few information about you and your website.
+	name = "Sam C."
+	bio = "Just a developer from Phoenix"
+	description = "Single page splash page"
+	location = "" # optional
+	twitter = "samrocksc" # optional
+	github = "samrocksc" # optional
+ 	gitlab = "" # optional
+
+	# Enable a comment system
+	# You can choose between Disqus or Google Plus by setting comments
+	# to disqus or googleplus. For using Disqus you need to enter your
+	# shortname in disqusShortname at the top of the configs. 
+	comments = "disqus"
+
+	# Customize or translate the strings
+	keepReadingStr = "Keep reading"
+	backtotopStr = "Back to top"
+	shareStr = "Share"
+	pageNotFoundTitle = "404 - Page not found"
