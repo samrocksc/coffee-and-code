@@ -112,11 +112,11 @@ body {
 }
 
 .uptown-card {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candcphoenix.jpeg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candcphoenix.jpg') center / cover;
 }
 
 .eastvalley-card {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candceastvalley.jpeg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candceastvalley.jpg') center / cover;
 }
 
 .downtown-card {
