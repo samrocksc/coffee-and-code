@@ -9,65 +9,82 @@ body::before {
   bottom: 0;
   top: 0;
   position: fixed;
-
 }
 
+
 /*Mobile and small screen rules*/
-@media (max-width: 512px)  and (min-resolution: 1.5dppx),
+
+@media (max-width: 512px) and (min-resolution: 1.5dppx),
 (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
     background-image: url('images/candcbg.jpg');
   }
-
   .page-header {
     color: white;
     font-size: 7em;
     font-weight: 500;
   }
-
   .card-headers {
     font-size: 3em;
     font-weight: 400;
   }
-
 }
 
+
 /*Tablet Screens*/
-@media (min-width: 513px)  and (max-width: 1024px) and (min-resolution: 1.5dppx),
-(min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
+
+@media (min-width: 513px) and (max-width: 1024px) and (min-resolution: 1.5dppx),
+(min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx) {
   body::before {
     background-image: url('images/candcbg.jpg');
   }
-
   .page-header {
     color: white;
     font-size: 7em;
     font-weight: 400;
   }
-
   .card-headers {
     font-size: 5em;
     font-weight: 400;
   }
-
+  .left-col {
+    float: left;
+    width: 50%;
+    max-height: 12em;
+  }
+  .right-col {
+    float: right;
+    width: 50%;
+    max-height: 12em;
+  }
 }
 
+
 /*Large Screens*/
+
 @media (min-width: 1025px) and (min-resolution: 1.5dppx),
 (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
     background-image: url('images/candcbg.jpg');
   }
-
   .page-header {
     color: white;
     font-size: 7em;
     font-weight: 500;
   }
-
-.card-headers {
+  .card-headers {
     font-size: 5em;
     font-weight: 400;
+  }
+  .left-col {
+    float: left;
+    width: 50%;
+    max-height: 12em;
+  }
+  .right-col {
+    float: right;
+    width: 50%;
+    max-height: 12em;
   }
 }
 
@@ -106,28 +123,28 @@ body {
   width: 100%;
 }
 
-.demo-card-wide > .mdl-card__title {
+.demo-card-wide> .mdl-card__title {
   color: #fff;
   height: 300px;
 }
 
 .uptown-card {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candcphoenix.jpg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/candcphoenix.jpg') center / cover;
 }
 
 .eastvalley-card {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candceastvalley.jpg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/candceastvalley.jpg') center / cover;
 }
 
 .downtown-card {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candcdowntown.jpg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/candcdowntown.jpg') center / cover;
 }
 
 .aboutus-card {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candcaboutus.jpg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/candcaboutus.jpg') center / cover;
 }
 
-.demo-card-wide > .mdl-card__menu {
+.demo-card-wide> .mdl-card__menu {
   color: #fff;
 }
 
@@ -148,5 +165,34 @@ body {
 
 .view-link {
   text-decoration: none;
-  color: rgb(96,125,139);
+  color: rgb(96, 125, 139);
+}
+
+.contact-form {
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin: .5em auto;
+  min-height: 3.5em;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 1px 2px #000;
+  font-family: inherit;
+  width: 75%;
+  padding: 1em;
+}
+
+#submit {
+  clear: both;
+  margin: 0 auto;
+  padding: initial;
+  width: 8em;
+  background: #fff;
+}
+
+#submit:hover {
+  background: #ddd;
 }
