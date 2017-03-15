@@ -132,13 +132,23 @@ body {
 }
 
 .mdl-mini-footer {
-  height: 120px;
-  padding: 40px;
-  align-items: center;
+  height: 28vh;
   background-color: white;
   color: grey;
-  box-sizing: border-box;
-  bottom: 0;
+}
+
+.mdl-logo {
+  color: #808080;
+  display: inline-block;
+  text-align: center;
+}
+
+.mdl-logo.icons {
+  padding-right: 15vw;
+}
+
+.mdl-logo img {
+  padding: 10px 20px 20px 10px;
 }
 
 .share-link {
