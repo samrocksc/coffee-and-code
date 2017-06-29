@@ -16,7 +16,7 @@ body::before {
 @media (max-width: 512px)  and (min-resolution: 1.5dppx),
 (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/candcbg.jpg');
+    background-image: url('images/candcbg2.jpg');
   }
 
   .page-header {
@@ -26,7 +26,7 @@ body::before {
   }
 
   .card-headers {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 400;
   }
 
@@ -36,7 +36,7 @@ body::before {
 @media (min-width: 513px)  and (max-width: 1024px) and (min-resolution: 1.5dppx),
 (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
   body::before {
-    background-image: url('images/candcbg.jpg');
+    background-image: url('images/candcbg2.jpg');
   }
 
   .page-header {
@@ -46,7 +46,7 @@ body::before {
   }
 
   .card-headers {
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 400;
   }
 
@@ -56,7 +56,7 @@ body::before {
 @media (min-width: 1025px) and (min-resolution: 1.5dppx),
 (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/candcbg.jpg');
+    background-image: url('images/candcbg2.jpg');
   }
 
   .page-header {
@@ -85,17 +85,17 @@ body {
 }
 
 .transparent-block {
-  background-color: rgba(140, 140, 140, 0.5);
-  align-items: center;
   color: white;
   top: 20px;
   left: 20px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .header-container {
   background-color: rgba(140, 140, 140, 0.7);
   text-align: center;
+  border: 1px solid #2d2424;
+  border-radius: 15px;
 }
 
 .sub-heading {
@@ -104,10 +104,11 @@ body {
 
 .demo-card-wide.mdl-card {
   width: 100%;
+  border-radius: 15px;
 }
 
 .demo-card-wide > .mdl-card__title {
-  color: #fff;
+  color: #f5f2e8;
   height: 300px;
 }
 
@@ -124,7 +125,7 @@ body {
 }
 
 .aboutus-card {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/candcaboutus.jpg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/candcaboutus.jpg) center / cover;
 }
 
 .demo-card-wide > .mdl-card__menu {
@@ -133,7 +134,7 @@ body {
 
 .mdl-mini-footer {
   height: 28vh;
-  background-color: white;
+  background-color: #f5f2e8;
   color: grey;
 }
 
