@@ -162,7 +162,18 @@ body {
   color: rgb(96,125,139);
 }
 
-.fa-twitter, .fa-facebook {
-  color: #ffffff;
-  padding: 0 0 25px 25px;
-}
+.mdl-card__menu img{
+   filter: blur(0);
+   -webkit-filter: blur(0);
+   -moz-filter: blur(0);
+   -o-filter: blur(0);
+   -ms-filter: blur(0);    
+ }
+ 
+ .mdl-card__menu img:hover  {
+    filter: blur(1px);
+   -webkit-filter: blur(1px);
+   -moz-filter: blur(1px);
+   -o-filter: blur(1px);
+   -ms-filter: blur(1px);
+ }
