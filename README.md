@@ -23,3 +23,16 @@ We are going to be using this site as a live development atmosphere for programm
 
 The site is currently setup as HTML and CSS!
 
+
+## Dependencies
+For local development:
+* [Ruby 2.4.2](https://www.ruby-lang.org/)
+* [Bundler](https://bundler.io/)
+
+## Running 
+
+This project is based on [Jekyll](https://jekyllrb.com), a static site & blog generator.
+After setting up Ruby and Bundler, run `bundle` in your terminal, in the project folder,
+to install Jekyll dependencies.
+
+To run the project locally, type `bundle exec jekyll serve`.
