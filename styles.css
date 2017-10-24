@@ -12,6 +12,7 @@ body::before {
 
 }
 
+
 /*Mobile and small screen rules*/
 @media (max-width: 512px)  and (min-resolution: 1.5dppx),
 (max-width: 1024px) and (max-resolution: 1.5dppx) {
@@ -167,9 +168,9 @@ body {
    -webkit-filter: blur(0);
    -moz-filter: blur(0);
    -o-filter: blur(0);
-   -ms-filter: blur(0);    
+   -ms-filter: blur(0);
  }
- 
+
  .mdl-card__menu img:hover  {
     filter: blur(1px);
    -webkit-filter: blur(1px);
