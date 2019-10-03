@@ -170,6 +170,15 @@ body {
    -ms-filter: blur(0);    
  }
  
+a:link {
+  color: rgb(121,104,180);
+}
+a:visited {
+  color: rgb(155,107,83);
+}
+a:hover {
+  color: rgb(156,144,130);
+}
  .mdl-card__menu img:hover  {
     filter: blur(1px);
    -webkit-filter: blur(1px);
