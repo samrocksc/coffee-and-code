@@ -12,6 +12,14 @@ body::before {
 
 }
 
+.container-page{
+  padding-bottom: 20px;
+}
+
+.container-header{
+  padding-top: 20px;
+}
+
 /*Mobile and small screen rules*/
 @media (max-width: 512px)  and (min-resolution: 1.5dppx),
 (max-width: 1024px) and (max-resolution: 1.5dppx) {
@@ -23,6 +31,10 @@ body::before {
     color: white;
     font-size: 7em;
     font-weight: 500;
+  }
+
+  .container-header{
+    padding-top: 0px;
   }
 
   .card-headers {
@@ -133,7 +145,6 @@ body {
 }
 
 .mdl-mini-footer {
-  height: 28vh;
   background-color: #f5f2e8;
   color: grey;
 }
